@@ -1,0 +1,67 @@
+body {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 15px;
+}
+body, ul {
+    margin:0;
+    padding:0;
+}
+h1, h2, .skills-list {    
+    font-family: 'Righteous', cursive    
+}
+img {
+    max-width: 80%;
+}
+nav {
+    background-color: #b9a6b3;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+nav ul {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover {
+    text-decoration: underline;
+}
+header {
+    top: 110px;
+    position:relative;
+    margin-bottom: 220px;
+}
+h1 {
+    font-size: 80px;
+}
+.button {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px 20px ;
+    margin-top: 40px;
+    display: inline-block ;
+    border-radius: 20px ;
+    transition: background 0.5s ease-in-out;
+}
+.button:hover {
+    background: black;
+    color:#b9a6b3;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
+footer h2 {
+    font-size: 40px;
+}

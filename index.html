@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <!-- font for head -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!-- font for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=PT+Mono&family=Righteous&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav> 
+      <ul>
+        <li><a href="#contact">contact</a></li>  
+        <li><a href="https://github.com/tfcrockett" target="blank">github</a></li>
+        <li><a href="https://www.linkedin.com/in/thea-crockett-8693b61a5/" target="blank">linkedin</a></li>
+        <!-- add link to news article <li>other</li> -->
+      </ul> 
+    </nav>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>hi, i’m <br>Thea Crockett</br></h1>
+            <ul>
+              <li>Data Analyst</li> 
+              
+              <li>Math Teacher</li> 
+              <li>Chemical Engineer</li> 
+              <li>Digital and Traditional Artist</li>                    
+            </ul>
+            <a href="https://www.linkedin.com/in/thea-crockett-8693b61a5/"target="blank"class="button">add me on linkedin</a>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="img/theaheadshot.jpg"alt="Thea Crockett"/>
+              <figcaption>
+                <!-- write caption here -->
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- write caption here 
+    <section>
+      <ul class="skills-list">
+        <li>01_graphic design</li> 
+        <li>02_user experience</li> 
+        <li>03_user interface design</li> 
+        <li>04_design thinking</li> 
+        <li>05_user research</li>         
+      </ul>
+    </section>
+    -->
+      <!-- projects -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col"> 
+            <figure>
+              <img src="img/grabandgo.JPG"alt="grabandgo"/>
+              <figcaption>
+                grabandgo
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <h2>Grab and Go Meals</h2>
+            <p>
+              A website allowing students in public schools locate the nearest school cafeterias that offer free meals. With the closure of schools and limited means of transportation due to Covid, students needing meals were stranded at home.A web page that captures the user location was crucial then for these individuals to get food on time.
+            </br>Contribution - data collection, geocode addresses, convert information to GeoJSON, developed web page, created map icon.
+            </br>Tools used - Excel, Javascript, geoJson, geocoding, leaflet, HTML, CSS, photoshop and Github.
+            </p>
+            <a href="https://datascienceconsultants.github.io/COVID-19/"target="blank"class="button">GrabandGo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2>Earthquake Tracker</h2>
+              <p>
+                Earthquake real time data gathered through an API call, visualized using Leaflet in a website.
+                <br/>Contribution -collaborated on the Javascript code. 
+                <br/>Tools used - Python, Flask, Javascript, Leaflet, API calls, HTML, CSS, Github.
+              </p>
+              <a href="https://www.eq-tracker.xyz/"class="button"target="blank">earthquake track now</a>
+            </div>
+            <div class="col"> 
+              <figure>
+                <img src="img/eq-tracker.JPG"alt="tracker"/>
+                <figcaption>
+                  
+                </figcaption>
+              </figure>
+            </div>            
+          </div>
+        </div>
+      </section>
+      <section>
+      <!-- projects 3 -->
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col"> 
+              <figure>
+                <img src="img/Parsons.JPG"alt="dating app"/>
+                <figcaption>
+                  Dating App
+                </figcaption>
+              </figure>
+            </div>
+            <div class="col">
+              <h2>Dating App: Machine Learning Model</h2>
+              <p>
+                Data from a SPEED DATING experiment was used to train and test a model that matches participants based on their skills and likeability.
+                <br/>Contribution - trained and tested the model with SVD, KNN and Matrix Factorization to determine matches between participants using a coefficient on their interests.
+                -Copied the Matrix factorization coefficients from python and recreated it in Tableau for better visual representation and to predict how the users rate skills and likeability to generate a recommendation based on the prediction.
+                <br/>Tools used - Python, Flask, Javascript, Leaflet, API calls, HTML, CSS, Github.
+              </p>
+              <a href="https://public.tableau.com/views/TheaPearsonsCoefficient/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"target="blank"class="button">graph</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>    
+    <footer id="contact">
+      <h2>any questions?</br>find me here theagcrockett@gmail.com</h2>
+      <P>
+        Developed by Thea Crockett 2022
+      </P>
+    </footer>
+  </body>
+</html>
